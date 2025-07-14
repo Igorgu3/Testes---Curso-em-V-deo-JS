@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex.2 - Verificador de Idade</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1> 
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento: 
+                <input type="number" name="txtano" id="txtano" min="0" style="color: black;">
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="masc" checked style="color: black;">
+                <label for="masc" style="color: black;">Masculino</label>
+                <input type="radio" name="radsex" id="fem" style="color: black;">
+                <label for="fem" style="color: black;">Feminino</label>
+            </p>
+            <p><input type="button" value="Verificar" onclick="verificar()"></p>
+        </div>
+
+        <div id = "res">
+            Preencha acima todos os dados!
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Igor Araujo</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
